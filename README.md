@@ -1,14 +1,8 @@
 # Name
 
-## Overview
+Medialab Katowice Shared Cities - Geography of surveyed participants
 
-## Installation
-
-```
-npm i name
-```
-
-## Building
+![Geography of surveyed participants](preview.png "Geography of surveyed participants")
 
 # Authors
 - Dawid Górny
