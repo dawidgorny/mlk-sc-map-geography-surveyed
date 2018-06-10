@@ -1,6 +1,6 @@
 'use strict'
 
-const createApp = require('../node-dg-utils/frontend/create-app');
+const createApp = require('dg-utils/frontend/create-app');
 const createFrontendApp = require('./src/create-frontend-app');
 
 (function (exports) {

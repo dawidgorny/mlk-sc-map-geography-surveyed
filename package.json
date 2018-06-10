@@ -12,7 +12,7 @@
   "private": true,
   "license": "Apache-2.0",
   "dependencies": {
-    "dg-utils": "*",
+    "dg-utils": "^0.3.0",
     "mapbox-gl": "^0.45.0",
     "ramda": "^0.25.0",
     "request": "^2.87.0",
