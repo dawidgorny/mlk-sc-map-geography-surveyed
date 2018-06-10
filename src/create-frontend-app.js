@@ -5,7 +5,7 @@ const R = require('ramda');
 const map = R.map;
 
 const defaultCenter = [19.023632, 50.234461];
-const defaultZoom = 9.5;
+const defaultZoom = 8.0;
 const minZoom = null;
 const maxZoom = null;
 const maxBounds = null;
