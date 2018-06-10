@@ -1,0 +1,8 @@
+.mapboxgl-ctrl-group {
+  border-radius: 0;
+  box-shadow: none;
+  border: 1px solid #10069F;
+}
+.mapboxgl-ctrl-icon.mapboxgl-ctrl-zoom-in {
+  border-bottom: 1px solid #10069F;
+}
