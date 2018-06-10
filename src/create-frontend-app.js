@@ -48,8 +48,8 @@ const createFrontendApp = (mapContainer, mapStyle, mapboxAccessToken) => {
         type: 'geojson',
         data: assets['geography_surveyed'],
         cluster: true,
-        clusterMaxZoom: 14, // Max zoom to cluster points on
-        clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
+        clusterMaxZoom: 20, // Max zoom to cluster points on
+        clusterRadius: 35 // Radius of each cluster when clustering points (defaults to 50)
       });
 
       mapInstance.addLayer({
