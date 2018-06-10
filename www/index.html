@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title> </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='vendor/mapbox-gl/mapbox-gl.css' rel='stylesheet' />
+  <link rel="stylesheet" href="https://use.typekit.net/hjv1pkn.css">
+  <script src="vendor/mapbox-gl/mapbox-gl.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+  <script src="frontend.web.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    const mapContainer = document.getElementById('map1');
+    const mapStyle = 'mapbox://styles/medialabkatowice/cje8gw06sc9yu2qpdrs9lprcm';
+    const mapboxAccessToken = '<mapbox token here>';
+    const map = geographySurveyMap.create(mapContainer, mapStyle, mapboxAccessToken);
+  </script>
+  <body class="bg-white">
+    <content>
+      <div class="flex flex-wrap justify-center vh-50" style="">
+        <div class="" style="">
+          <div id="map1" class="w-100 h-100" style=""></div>
+        </div>
+      </div>
+    </content>
+  </body>
+</html>
