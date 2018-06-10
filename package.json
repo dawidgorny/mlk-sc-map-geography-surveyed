@@ -1,0 +1,54 @@
+{
+  "name": "mlk-sc-map-geography-surveyed",
+  "version": "0.1.0",
+  "description": "## Overview",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server ./www",
+    "build": "gulp js",
+    "clean": "rm -rf build lib node_modules"
+  },
+  "author": "Dawid Górny",
+  "private": true,
+  "license": "Apache-2.0",
+  "dependencies": {
+    "dg-utils": "*",
+    "mapbox-gl": "^0.45.0",
+    "request": "^2.87.0",
+    "seq": "^0.3.5"
+  },
+  "devDependencies": {
+    "http-server": "*",
+    "browserify": "*",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify-replace": "^0.9.3",
+    "clean-css-cli": "^4.1.4",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "gulplog": "^1.0.0",
+    "iotacss-components-button": "^1.0.3",
+    "lodash.assign": "^4.2.0",
+    "uglifyify": "^5.0.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0"
+  },
+  "browserify": {
+    "transform": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawidgorny/mlk-sc-map-geography-surveyed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dawidgorny/mlk-sc-map-geography-surveyed/issues"
+  },
+  "homepage": "https://github.com/dawidgorny/mlk-sc-map-geography-surveyed#readme"
+}
